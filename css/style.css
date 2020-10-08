@@ -297,6 +297,11 @@ textarea:focus {
     top:0%;
     right:0px;
 }
+@media(min-width:767px){
+    .images_list:nth-child(6){
+        top:6%;
+    }
+}
 .hero_image
 {
     text-align: center;
