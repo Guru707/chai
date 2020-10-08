@@ -703,7 +703,9 @@ textarea:focus {
     width: 175px;
     height: 125px;
     position: absolute;
-    right:85px;
+    right:0px;
+    left:0px;
+    margin:0px auto;
 }
 @media(min-width:767px){
     .form-element:after{
@@ -800,7 +802,7 @@ textarea.input-block {
 .chai_leaves {
     position: absolute;
     right: 0px;
-    top: -80px;
+    top: -95px;
 }
 @media(min-width:767px){
     .chai_leaves {
