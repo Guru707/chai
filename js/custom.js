@@ -219,3 +219,15 @@ function initMap() {
     map: map,
   });
 }
+// sidebar
+
+$(document).ready(function(){
+  $("#toggle-btn").click(function(){
+
+    $(".side_bar").addClass("active");
+  });
+  $("#cross,.navbar-nav li a").click(function(){
+    $(".side_bar").removeClass("active");
+  });
+  
+});
