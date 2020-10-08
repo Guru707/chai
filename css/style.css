@@ -294,12 +294,12 @@ textarea:focus {
 }
 }
 .images_list:nth-child(6){
-    top:0%;
+    top:6%;
     right:0px;
 }
 @media(min-width:767px){
     .images_list:nth-child(6){
-        top:6%;
+        top:0%;
     }
 }
 .hero_image
