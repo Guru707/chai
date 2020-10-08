@@ -341,17 +341,20 @@ textarea:focus {
     }
 }
 .yearly_box .yearly_circle{
+  
+    flex:0 0 30%;
+}
+.yearly_box .yearly_circle span{
     background-color: #fff;
     border-radius: 50%;
     width: 80px;
-    height: 90px;
+    height: 80px;
     margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: center;    
     font-weight: 700;
     color:#c44726;
-    flex:0 0 30%;
 }
 .yearly_work p{
     width:100%;
@@ -361,8 +364,7 @@ textarea:focus {
 @media(min-width:767px){
     .yearly_work p{
         position: absolute;
-       padding-left:0px;
-    }
+   }
 }
 .yearly-content-mid{
     top:-60px;
@@ -436,6 +438,7 @@ textarea:focus {
     text-align: center;
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
     
 }
 @media(min-width:767px)

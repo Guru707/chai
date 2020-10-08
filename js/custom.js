@@ -185,7 +185,7 @@ $(document).ready(function () {
     }
 
       //  color switch
-       var $div = $('.yearly_circle'),
+       var $div = $('.yearly_circle span'),
   index = 0,
   length = $div.length;
 setInterval(function() {
