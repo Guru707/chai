@@ -194,7 +194,7 @@ textarea:focus {
 }
 .navbar-main
 {
-    background-color:#dab843;
+    background-color:#33373c;
 }
 @media(min-width:767px){
     .navbar-main  {
@@ -463,14 +463,14 @@ textarea:focus {
     position: absolute;
     FONT-WEIGHT: 100;
     height: 100vh;
-    background: #000;
+    background: #33373c;
     bottom: 0;
     right: 0;
     top:0;
     padding: 30px;
     transform: translatex(300px);
     transition: 0.3s ease-in-out;
-    width:50%;
+    width:80%;
 }
 .side_bar.active{
     transform: translatex(0px);
