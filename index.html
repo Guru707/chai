@@ -43,7 +43,7 @@
                   </ul>
                </div>
                <div class="side_bar">
-                  <a href="#" id="cross" class="text-whiteE"><i class="fas fa-times"></i></a>
+                  <a href="#" id="cross" class="text-white"><i class="fas fa-times"></i></a>
                   <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="menu">
                      <li class="nav-item ">
                         <a class="nav-link active" href="#" data-page="anchor1">Home</a>
@@ -345,9 +345,8 @@
             <div class="col-md-4">
                <div class="video_box">
                   <a href="https://youtu.be/kg91Mn76dnY" data-fancybox>
-                     <img src="images/video_1.jpg"
-                        class="img-responsive" />
-                     </a>
+                     <img src="images/video_1.jpg" class="img-responsive" />
+                  </a>
                </div>
             </div>
          </div>
@@ -359,44 +358,23 @@
          <h3 class="h1 mb-5 text-primary font-800">Our Stores </h3>
       </div>
       <div class="map_block">
-         <img src="images/icon_map.png" alt="Workplace" usemap="#image-map" " hidefocus="true">
+         <img src="images/icon_map.png" alt="Workplace" usemap="#image-map" " hidefocus=" true">
          <map name="image-map">
-            <area target="" alt="" title="" href="#"  coords="196,194,208,217,221,225,252,238,258,210,245,191,232,166,204,169,192,177" shape="poly">
-            <area target="" alt="" title="" href="#" coords="153,405,164,424,185,436,196,432,200,416,189,387,164,373,139,383" shape="poly">
-            <area target="" alt="" title="" href="#" coords="646,349,657,379,675,389,684,384,692,364,683,345,666,340,643,332,639,348" shape="poly">
-            <area target="" alt="" title="" href="#" coords="799,388,809,404,817,428,829,438,853,429,841,405,817,383" shape="poly">
-        </map>
+            <area target="" alt="" title="" href="#"
+               coords="196,194,208,217,221,225,252,238,258,210,245,191,232,166,204,169,192,177" shape="poly">
+            <area target="" alt="" title="" href="#"
+               coords="153,405,164,424,185,436,196,432,200,416,189,387,164,373,139,383" shape="poly">
+            <area target="" alt="" title="" href="#"
+               coords="646,349,657,379,675,389,684,384,692,364,683,345,666,340,643,332,639,348" shape="poly">
+            <area target="" alt="" title="" href="#" coords="799,388,809,404,817,428,829,438,853,429,841,405,817,383"
+               shape="poly">
+         </map>
       </div>
-      <div class="pop-box text-center">
-         <img src="images/chai_store.jpg" class="img-responsive">
-         <div class="pop_content">
-            <h4>Chai Patram Tilak Nagar</h4>
-            <p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p>
-         </div>
+      <div id="pop-box" class="pop-box text-center" style="display:none;">
+
       </div>
-      <div class="pop-box text-center">
-         <img src="images/chai_store.jpg" class="img-responsive">
-         <div class="pop_content">
-            <h4>Chai Patram Tilak Nagar</h4>
-            <p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p>
-         </div>
-      </div>
-      <div class="pop-box text-center">
-         <img src="images/chai_store.jpg" class="img-responsive">
-         <div class="pop_content">
-            <h4>Chai Patram Tilak Nagar</h4>
-            <p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p>
-         </div>
-      </div>
-      <div class="pop-box text-center">
-         <img src="images/chai_store.jpg" class="img-responsive">
-         <div class="pop_content">
-            <h4>Chai Patram Tilak Nagar</h4>
-            <p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p>
-         </div>
-      </div>
-     
-     
+
+
    </section>
    <section class="form-element equal-p " id="anchor5">
 
@@ -409,7 +387,8 @@
             <div class="col-md-6">
                <div class="form-block">
                   <h3 class="h1 mb-2 font-800">Franchise</h3>
-                  <p class="text-black ">Love Chai as much as we do? Join us and open a franchise of our store in your city.</p>
+                  <p class="text-black ">Love Chai as much as we do? Join us and open a franchise of our store in your
+                     city.</p>
                   <form>
                      <div class="form-group">
                         <input type="text" placeholder="*Name" class="input-block" value="" />
@@ -487,9 +466,6 @@
       </div>
    </footer>
    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-   <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA837j-2rwmobXpfg0GdCAo9FRGjhdFACo&callback=initMap&libraries=&v=weekly"
-      defer></script>
    <script src="js/jquery-min.js"></script>
    <script src="js/font-awesome.js"></script>
    <script src="js/popper-min.js"></script>
@@ -507,6 +483,29 @@
          let copyrightText = ` Chai Patram  - ${year} All Rights Reserved`;
          $(".copyright").html(copyrightText);
 
+         //open container and populate data when clicked on icon
+         $(".map_block area").on("click", function (e) {
+            e.preventDefault();
+            let parentOffset = $(".map_element").offset();
+            var relX = e.pageX - parentOffset.left;
+            var relY = e.pageY - parentOffset.top;
+            let content = `<img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div>`;
+            $("#pop-box").html(content).show().css({ top: relY, left: relX });
+
+         });
+
+         //close popup when clicked outside
+         $(document).mouseup(function (e) {
+            var container = $("#pop-box");
+
+            if (!container.is(e.target) // if the target of the click isn't the container...
+               && container.has(e.target).length === 0) // ... nor a descendant of the container
+            {
+               container.hide();
+
+            }
+
+         });
 
       });
 
