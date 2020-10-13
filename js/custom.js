@@ -78,35 +78,6 @@ $(".tab-listing").click(function(){
 });
 
 
-$(document).ready(function () {
-  $('#slider-items').slick({
-     infinite: true,
-     dots: false,
-     slidesToShow: 8,
-     slidesToScroll: 1,
-     arrows: false,
-     horizontalSwiping: true,
-     aitForAnimate: true,
-     autoplay: true,     
-     responsive: [
-{
-  breakpoint: 1400,
-  settings: {
-    slidesToShow: 6,
-    centerMode: true,
-  }
-},
-{  
-  breakpoint: 767,
-  settings: {
-    slidesToShow: 1,
-    dots: false,
-  }
-}
-]
-  });
-});
-
 // $(function() {
 //   $('.popup-youtube').magnificPopup({
 //       disableOn: 700,

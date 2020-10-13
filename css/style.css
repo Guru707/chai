@@ -148,6 +148,9 @@ textarea:focus {
 .map_block {
    display: none;
 }
+.mobile_device{
+    display: block;
+}
 @media(min-width:767px){
     .map_block {
         z-index: 9;
@@ -156,6 +159,10 @@ textarea:focus {
     height: 100%;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    }
+    .mobile_device{
+        display: none;
     }
 }
 /* .map_block img{
@@ -460,6 +467,16 @@ textarea:focus {
 }
 .about-element{
     background-color: #c44726;
+}
+.about-img
+{
+    text-align: center;
+}
+@media(min-width:767px){
+    .about-img
+    {
+        text-align: left;
+    }
 }
 .yearly_box{
  
@@ -1003,7 +1020,6 @@ textarea.input-block {
     background-color:transparent;
     border:1px solid #edb221;
     color:#edb221;
-    font-size:16px;
 }
 
 .copyright-block{
