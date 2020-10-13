@@ -10,8 +10,11 @@ a,
 a:hover,
 a:focus {
     text-decoration: none;
+    outline:none;
 }
-
+img.map, map area{
+    outline: none;
+}
 ul,
 li {
     list-style: none;
@@ -141,9 +144,9 @@ textarea:focus {
     display: flex;
     align-items: center;
 }
-.map_block img{
+/* .map_block img{
   max-width:100%;
-}
+} */
 .map_address{
     width:100%;
     position: relative;
