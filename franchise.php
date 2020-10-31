@@ -44,24 +44,32 @@
             </div>
             <div class="row">
                <div class="col-md-6 text-center mb-5">
+                  <div class="franchise_box">
                   <i class="fas fa-star-of-life h2"></i>
                   <h4>Affordable</h4>
                   <p>At this price, we guarantee you a good ROI.</p>
+                  </div>
                </div>
                <div class="col-md-6 text-center mb-5">
+               <div class="franchise_box">
                   <i class="fas fa-mug-hot h2"></i>
                   <h4>100% hygienic </h4>
                   <p>Hygenic process, untouched by anyone.</p>
+                  </div>
                </div>
                <div class="col-md-6 text-center mb-5">
+               <div class="franchise_box">
                   <i class="fas fa-users h2"></i>
                   <h4>Experienced Team</h4>
                   <p>A dynamic team with knowledge to <span class="d-block">establish QSR (quick-service restaurant)</span></p>
                </div>
+               </div>
                <div class="col-md-6 text-center mb-5">
+               <div class="franchise_box">
                   <i class="fas fa-hotel h2"></i>
                   <h4>Good model setup</h4>
                   <p>The FOFO model has been designed with <span class="d-block"> an objective to generate high ROI.</span></p>
+               </div>
                </div>
             </div>
          </div>
