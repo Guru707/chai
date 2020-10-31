@@ -251,6 +251,7 @@ textarea:focus {
     position: fixed;
     width: 100%;
     z-index: 9999;
+    top:0px;
 }
 
 .header-element.sticky .brand-logo {
@@ -329,12 +330,14 @@ textarea:focus {
 .hero_element {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 0px;
+    padding-top: 60px;
     overflow: hidden;
     position: relative;
     background-color: #ececec;
-    height:100vh;
+   
+}
+.hero_element  .slick-slide img{
+    width: 100%;
 }
 .hero_heading{
     height: 100%;
@@ -624,7 +627,7 @@ textarea:focus {
     padding:0px 15px;
 }
 .tea_feature_list span{
-    border: 2px solid #EC5E21;
+   
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -633,6 +636,9 @@ textarea:focus {
     justify-content: center;
     margin: 0px auto;
     margin-bottom: 15px;
+}
+.tea_feature_list img{
+    max-width:100%;
 }
 .tea_feature_list h4{
     font-size:16px;
@@ -785,6 +791,9 @@ textarea:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.product_box > .chai_cup>img{
+    width:70px;
 }
 .product_box .product-content{
     padding:70px 0px;
@@ -968,7 +977,6 @@ textarea.input-block {
    
     color: #fff;
     font-size: 20px;
-    padding-top: 30px;
 }
 .address-listing{
     position: relative;
@@ -991,15 +999,9 @@ textarea.input-block {
 .social-block{
     display: flex;
     height: 100%;
-    align-items: flex-end;
     margin-top:20px;
 }
-@media(min-width:767px){
-    .social-block{
 
-        justify-content: flex-end;
-    }
-}
 .social-icon{
     display: flex;
     text-align: center;
@@ -1030,3 +1032,44 @@ textarea.input-block {
     padding:10px 0px;
 }
 
+.inner-main-title {
+    background-image: url(../images/cropped-frenchiese.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;
+}
+.inner-main-title {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-color: #2D2D2D;
+    overflow: hidden;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.inner-main-title h1{
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.hidden_content{
+    display: none;
+}
+a.text-primary.read_more:hover,a.text-primary.read_more:focus{
+    color:gray !important;
+}
+.read_more{
+    padding-bottom: 40px;
+    display: inline-block;
+}
+@media(min-width:767px){
+    .read_more{
+        padding-bottom: 40px;
+        display: inline-block;
+    }
+}

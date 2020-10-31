@@ -1,71 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include('header.php');
+?>
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Chaipatram</title>
-
-   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="css/bootstrap.css">
-   <link rel="stylesheet" href="css/slick.css">
-   <link rel="stylesheet" href="css/slick-theme.css">
-   <link rel="stylesheet" href="css/fancybox.css">
-   <link rel="stylesheet" href="css/icons.css">
-   <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body class="">
-   <header class="header-element mb-2" id="myHeader">
-      <div class="header_top">
-         <nav class="navbar navbar-expand-lg navbar-main">
-
-            <div class="container">
-               <a class="navbar-brand brand-logo" href="#anchor1"><img src="images/footer_logo.png"
-                     class="img-responsive" /></a>
-               <button class="navbar-toggler" type="button" id="toggle-btn" class="navbar-toggler" type="button">
-                 <img src="images/hamburger.png">
-               </button>
-               <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="menu">
-                     <li class="nav-item ">
-                        <a class="nav-link active" href="#" data-page="anchor1">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about_us.html" >Brand Story</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link " href="#" data-page="anchor3">Stores </a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link " href="#" data-page="anchor5">Quote for Franchisee</a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="side_bar">
-                  <a href="#" id="cross" class="text-white"><i class="fas fa-times"></i></a>
-                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="menu">
-                     <li class="nav-item ">
-                        <a class="nav-link active" href="#" data-page="anchor1">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about_us.html">Brand Story</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link " href="#" data-page="anchor3">Stores </a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link " href="#" data-page="anchor4">Quote for Franchisee</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-      </div>
-   </header>
 
    <section class="hero_element " id="anchor1">
-      <ul class="images_nav">
+      <!-- <ul class="images_nav">
          <li class="images_list"><img src="images/Image1.png" alt="images_1"></li>
          <li class="images_list"><img src="images/Image2.png" alt="images_2"></li>
          <li class="images_list"><img src="images/Image3.png" alt="images_3"></li>
@@ -89,7 +28,12 @@
             </div>
 
          </div>
-      </div>
+      </div> -->
+      <div class="slider">
+         <div><img src="images/banner_1.jpg" alt=""></div>
+         <div><img src="images/banner_2.jpg" alt=""></div>
+         <div><img src="images/banner_3.jpg" alt=""></div>
+       </div>
    </section>
    <section class="about-element equal-p" id="anchor2">
       <div class="container">
@@ -176,12 +120,12 @@
                      <p>Refreshing Taste with no added color or artificial ingredients.</p>
                   </li>
                   <li class="tea_feature_list ">
-                     <span><img src="images/feature_3.png" alt="" /></span>
+                     <span><img src="images/feature_4.png" alt="" /></span>
                      <h4>Consistent Taste</h4>
                      <p>We believe in quality Chai for all our customers.</p>
                   </li>
                   <li class="tea_feature_list ">
-                     <span><img src="images/feature_4.png" alt="" /></span>
+                     <span><img src="images/feature_5.png" alt="" /></span>
                      <h4>Experienced Team</h4>
                      <p>Each cup of Chai is made by our expert team.</p>
                   </li>
@@ -201,113 +145,113 @@
          <div class="row">
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"> <img src="images/tea_3.png" alt=""></div>
+                  <div class="chai_cup"> <img src="images/tea_top1-01.png" alt=""></div>
                   <div class="product-content">
-                     <h2 class="font-800"> Adrak <span class="d-block">Chai</span></h2>
+                     <h2 class="font-800"> Chai</h2>
                      <p>Your favorite chai, made with elaichi, adrak, milk & special tea leaves.</p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/tea-bottom-01.png"></span>
                </div>
             </div>
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"> <img src="images/tea_1.png" alt=""></div>
+                  <div class="chai_cup"> <img src="images/kullad top-01-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800">Kullad <span class="d-block">Chai</span></h2>
                      <p>Desi special, chai served in kulhad for the desi feel. </p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/kullad-bottom-01.png"></span>
                </div>
             </div>
             <div class="col-md-4"> 
                <div class="product_box">
-                  <div class="chai_cup"> <img src="images/tea_2.png" alt=""></div>
+                  <div class="chai_cup"> <img src="images/lemon top-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800">Lemon Mint <span class="d-block">Tea</span></h2>
                      <p>A cup of refreshment, Lemon tea with mint in hot water.</p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/lemon-bottom-01.png"></span>
                </div>
             </div>
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"> <img src="images/tea_2.png" alt=""></div>
+                  <div class="chai_cup"> <img src="images/haldi mil-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800">Immunity <span class="d-block">booster</span></h2>
                      <p>Boost your immunity with the goodness of Haldi, milk, elaichi</p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/haldi-bottom-01.png"></span>
                </div>
             </div>
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"><img src="images/tea_3.png" alt=""></div>
+                  <div class="chai_cup"><img src="images/bun-maska-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800">Maska <span class="d-block">maar ke </span> </h2>
                      <p>Fresh Bun buttered and toasted to perfection</p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/bum-maska-01.png"></span>
 
                </div>
             </div>
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"><img src="images/tea_1.png" alt=""></div>
+                  <div class="chai_cup"><img src="images/cream-roll-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800">Cream <span class="d-block">Roll</span> </h2>
                      <p>Yummy Cream filled puff pastry</p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/cream-roll-bottom-01.png"></span>
                </div>
             </div>
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"> <img src="images/tea_3.png" alt=""></div>
+                  <div class="chai_cup"> <img src="images/bun-jam-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800">Fruitilicious <span class="d-block">Bun</span></h2>
                      <p>Our version of Jam on a bun, everyday comfort food.</p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/bun-jam-bottom-01.png"></span>
                </div>
             </div>
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"> <img src="images/tea_2.png" alt=""></div>
+                  <div class="chai_cup"> <img src="images/poha-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800">Chatpata Poha <span class="d-block">with Bhujia</span></h2>
                      <p>Perfect start of the day, breakfast that goes great with Cha</p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/poha-bottom.png"></span>
                </div>
             </div>
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"> <img src="images/tea_1.png" alt=""></div>
+                  <div class="chai_cup"> <img src="images/coffee-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800">Hot <span class="d-block">Coffee</span></h2>
                      <p>Freshly brewed aromatic coffee </p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/coffee-bottom-01.png"></span>
                </div>
             </div>
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"> <img src="images/tea_1.png" alt=""></div>
+                  <div class="chai_cup"> <img src="images/biscuit-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800"> Fresh Oven <span class="d-block">Biscuit</span></h2>
                      <p>Freshly baked biscuits from our oven to your plate</p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/biscuit-bottom-01.png"></span>
                </div>
             </div>
             <div class="col-md-4">
                <div class="product_box">
-                  <div class="chai_cup"> <img src="images/tea_1.png" alt=""></div>
+                  <div class="chai_cup"> <img src="images/fan-01.png" alt=""></div>
                   <div class="product-content">
                      <h2 class="font-800"> Fluffy <span class="d-block">Fan</span></h2>
                      <p>Fluffy, delicate fan made with maida.</p>
                   </div>
-                  <span class="bottom_product"><img src="images/masala.png"></span>
+                  <span class="bottom_product"><img src="images/fan-bottom-01.png"></span>
                </div>
             </div>
          </div>
@@ -320,25 +264,14 @@
             <h3 class="h1 mb-5 text-primary font-300">Video Gallery <span class="d-block font-800">Teaser</span></h3>
          </div>
          <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
                <div class="video_box">
-                  <a href="https://youtu.be/kg91Mn76dnY" data-fancybox><img src="images/video_1.jpg"
+                  <a href="https://www.youtube.com/watch?v=o9iTsmfor2Q&feature=youtu.be" data-fancybox><img src="images/video_1.jpg"
                         class="img-responsive" /></a>
                </div>
             </div>
-            <div class="col-md-4">
-               <div class="video_box">
-                  <a href="https://youtu.be/kg91Mn76dnY" data-fancybox><img src="images/video_1.jpg"
-                        class="img-responsive" /></a>
-               </div>
-            </div>
-            <div class="col-md-4">
-               <div class="video_box">
-                  <a href="https://youtu.be/kg91Mn76dnY" data-fancybox>
-                     <img src="images/video_1.jpg" class="img-responsive" />
-                  </a>
-               </div>
-            </div>
+            <div class="col-md-3"></div>
          </div>
       </div>
    </section>
@@ -350,23 +283,23 @@
       <div class="map_block">
          <img src="images/icon_map.png" alt="Workplace" usemap="#image-map" " hidefocus=" true">
          <map name="image-map">
-            <area target="" alt="" title="" href="#"
+            <!-- <area target="" alt="" title="" href="#"
                coords="196,194,208,217,221,225,252,238,258,210,245,191,232,166,204,169,192,177" shape="poly">
             <area target="" alt="" title="" href="#"
-               coords="153,405,164,424,185,436,196,432,200,416,189,387,164,373,139,383" shape="poly">
+               coords="153,405,164,424,185,436,196,432,200,416,189,387,164,373,139,383" shape="poly"> -->
             <area target="" alt="" title="" href="#"
                coords="646,349,657,379,675,389,684,384,692,364,683,345,666,340,643,332,639,348" shape="poly">
-            <area target="" alt="" title="" href="#" coords="799,388,809,404,817,428,829,438,853,429,841,405,817,383"
-               shape="poly">
+            <!-- <area target="" alt="" title="" href="#" coords="799,388,809,404,817,428,829,438,853,429,841,405,817,383"
+               shape="poly"> -->
          </map>
       </div>
       <div id="pop-box" class="pop-box text-center" style="display:none;">
       </div>
       <div class="mobile_device">
+      <div  class="pop-box text-center" ><img src="images/chai_store.png" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div>
+      <!-- <div  class="pop-box text-center" ><img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div>
       <div  class="pop-box text-center" ><img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div>
-      <div  class="pop-box text-center" ><img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div>
-      <div  class="pop-box text-center" ><img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div>
-      <div  class="pop-box text-center" ><img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div>
+      <div  class="pop-box text-center" ><img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div> -->
    </div>
    </section>
    <section class="form-element equal-p " id="anchor5">
@@ -412,92 +345,4 @@
 
       </div>
    </section>
-   <footer class="">
-      <div class="footer_block equal-p">
-         <figure class="chai_leaves mb-0"><img src="images/chai_leaves.png" class="img-responsive"></figure>
-         <div class="container">
-            <img src="images/footer_logo.png">
-            <div class="row">
-               <div class="col-md-8">
-                  <div class="address-block ">
-                     <h3>Contact Us</h3>
-                     <ul>
-                        <li class="address-listing"><span class="icon-form"><i class="fas fa-map-marker-alt"
-                                 aria-hidden="true"></i></span>Addres: Shop no 47 New MKT <span
-                              class="d-block">
-                              Tilak Nagar </span>
-                              New Delhi 110018</li>
-
-                        <li class="address-listing"><span class="icon-form"><i class="fas fa-phone-volume"
-                                 aria-hidden="true"></i></span><a href="tel:+9111047037391" class="text-white">+91-11047037391</a></li>
-                        <li class="address-listing"><span class="icon-form"><i
-                                 class="far fa-envelope"></i></span>contact@chaipatram.com</li>
-                        <li class="address-listing"><span class="icon-form"><i class="fas fa-globe"></i></span>
-                           Chaipatram.com</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="social-block">
-                     <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                     <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                     <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-      </div>
-      <div class="copyright-block">
-         <div class="container">
-            <p class="mb-0 font-700 copyright"> </p>
-         </div>
-      </div>
-   </footer>
-   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-   <script src="js/jquery-min.js"></script>
-   <script src="js/font-awesome.js"></script>
-   <script src="js/popper-min.js"></script>
-   <script src="js/bootstrap.js"></script>
-   <script src="js/gsap.min.js"></script>
-   <script src="js/ScrollTrigger.min.js"></script>
-   <script src="js/fancybox.js"></script>
-
-   <script src="js/custom.js"></script>
-   <script>
-      $(document).ready(function () {
-
-         let year = new Date().getFullYear();
-         let copyrightText = ` Chai Patram  - ${year} All Rights Reserved`;
-         $(".copyright").html(copyrightText);
-
-         //open container and populate data when clicked on icon
-         $(".map_block area").on("click", function (e) {
-            e.preventDefault();
-            let parentOffset = $(".map_element").offset();
-            var relX = e.pageX - parentOffset.left;
-            var relY = e.pageY - parentOffset.top;
-            let content = `<img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div>`;
-            $("#pop-box").html(content).show().css({ top: relY, left: relX });
-
-         });
-
-         //close popup when clicked outside
-         $(document).mouseup(function (e) {
-            var container = $("#pop-box");
-
-            if (!container.is(e.target) // if the target of the click isn't the container...
-               && container.has(e.target).length === 0) // ... nor a descendant of the container
-            {
-               container.hide();
-
-            }
-
-         });
-
-      });
-
-   </script>
-</body>
-
-</html>
+   <?php include 'footer.php';?>
