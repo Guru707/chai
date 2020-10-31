@@ -1080,3 +1080,20 @@ a.text-primary.read_more:hover,a.text-primary.read_more:focus{
         display: inline-block;
     }
 }
+
+.fr-form{
+    color: #fff;
+    background-color:#ec1f26;
+    padding: 20px 40px 20px 40px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:2px solid #ec1f26;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+}
+.fr-form:hover,.fr-form:focus{
+    background-color: transparent;
+    color:#ec1f26 !important;
+}

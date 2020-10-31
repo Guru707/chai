@@ -71,6 +71,9 @@
                   <p>The FOFO model has been designed with <span class="d-block"> an objective to generate high ROI.</span></p>
                </div>
                </div>
+               <div class="col-md-12 text-center">
+                  <a href="index.php/#anchor5" class="fr-form">Franchise Form</a>
+               </div>
             </div>
          </div>
       </div>
