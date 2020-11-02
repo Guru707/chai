@@ -72,7 +72,7 @@
                </div>
                </div>
                <div class="col-md-12 text-center">
-                  <a href="index.php/#anchor5" class="fr-form">Franchise Form</a>
+                  <a href="index.php#anchor5" class="fr-form">Franchise Form</a>
                </div>
             </div>
          </div>
