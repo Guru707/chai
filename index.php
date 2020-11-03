@@ -98,7 +98,7 @@ include('header.php');
       <div class="">
          <div class="container ">
             <div class="heading-element text-center">
-               <h2 class="text-primary">Everyone’s Cup of Chai: </h2>
+               <h2 class="text-primary">Everyone’s Cup of untouched Chai: </h2>
                <p class="text-center">Get your cup of freshness and discover yourself. We make untouched,.
                   Chai humari favorite hai, aur aapki? </p>
             </div>

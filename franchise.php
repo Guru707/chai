@@ -47,14 +47,14 @@
                <div class="col-md-6 text-center mb-5">
                   <div class="franchise_box">
                   <img src="images/feature_1.png" alt="">
-                   <h4>Affordable</h4>
+                   <h4>Pocket Friendly </h4>
                   <p>At this price, we guarantee you a good ROI.</p>
                   </div>
                </div>
                <div class="col-md-6 text-center mb-5">
                <div class="franchise_box">
                   <img src="images/feature_2.png" alt="">
-                  <h4>100% hygienic </h4>
+                  <h4>Untouched/Hygenic </h4>
                   <p>Hygenic process, untouched by anyone.</p>
                   </div>
                </div>
@@ -68,7 +68,7 @@
                <div class="col-md-6 text-center mb-5">
                <div class="franchise_box">
                    <img src="images/feature_4.png" alt="">
-                  <h4>Good model setup</h4>
+                  <h4>Sacalable Model</h4>
                   <p>The FOFO model has been designed with <span class="d-block"> an objective to generate high ROI.</span></p>
                </div>
                </div>

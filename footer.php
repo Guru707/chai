@@ -31,7 +31,8 @@
                   </div>
                </div>
                <div class="col-md-8 pt-5">
-               <p class="text-white">
+                  <h4 class="text-white">What is Chai Patram?</h4>
+      <p class="text-white">
          Chai Patram is a Teafe for all Chai lovers. Taking into consideration cleanliness, hygiene, and safety of the Chai making process we have come up with a 100% hygiene chai making process. Our aim is to be the <b> tea point near me</b> that offers affordable and hygienic chai. Most tea restaurants and chai tapris lack the basic precaution measures that are a must in today’s time. </p>
 <p class="text-white">We offer a <b> food franchise</b> that will allow us to take the <b>best tea recipe</b> , make it in the most hygienic way possible, and make it affordable for all and reach all over India. </p>
                </div>
