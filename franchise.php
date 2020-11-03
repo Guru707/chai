@@ -2,8 +2,8 @@
 
    <section class="wrapper inner-main-title">    
          <div class="container">
-      <header class="entry-header" >
-         <h1 class="entry-title">Franchise</h1>			</header><!-- .entry-header -->
+      <header class="entry-header franchise-headng" >
+         <h1 class="entry-title font-300 text-uppercase ">Franchise</h1><p class="text-uppercase text-white mb-0">Come be a part of our journey</p>		</header><!-- .entry-header -->
   
 </div>
    </section>
@@ -16,20 +16,21 @@
                </div>
             </div>
             <div class=" col-md-6">
-               <div class="franchise-content" style="opacity: 1; transform: translate(0px, 0px);">
-                  <h3 class=" font-500">The Journey of a Sales Person to a Chaiwala</h3>
+               <div class="franchise-content">
                   <p class="">Get a chance to own a Food & Beverage Franchise opportunity with Chai Patram. </p>
                   <p class="">The food and beverage industry is highly competitive, customers are always looking for something new, and unique. This is why the best way to get into this business is through a food franchise.
                   </p>
-                 <p>Mr. Kanhaiya Joshi has been in the food industry for 5 years has a good know-how of how the industry works, inside-out.
-               </p> 
-               <p>Mr. Kanhaiya Joshi has been in the food industry for 5 years has a good know-how of how the industry works, inside-out.
+                  <div >
+               <p class="">Mr. Kanhaiya Joshi has been in the food industry for 5 years has a good know-how of how the industry works, inside-out.
                </p>
-               <p>At Chai Patram, we work with the best tea recipe and want to take India’s favorite drink - “Chai” reach every corner of India and be the “Chai point store near me”. We make our drink hygienic with the help of a process that allows us to create Chai from scratch untouched by anyone.
+               <p class="">At Chai Patram, we work with the best tea recipe and want to take India’s favorite drink - “Chai” reach every corner of India and be the “Chai point store near me”. We make our drink hygienic with the help of a process that allows us to create Chai from scratch untouched by anyone.
                </p>
-        <p>Join Chai Patram and open your beverage franchise. Become a part of Delhi’s best, hygienic Chai franchise brand. With our franchise, we will provide training, a full business setup, and a system to help you start out.</p>       
-                  <p>Come, join Chai Patram, and make your food business opportunity a reality.
+        <p class="">Join Chai Patram and open your beverage franchise. Become a part of Delhi’s best, hygienic Chai franchise brand. With our franchise, we will provide training, a full business setup, and a system to help you start out.</p>       
+                  <p class="">Come, join Chai Patram, and make your food business opportunity a reality.
                   </p>
+                  
+               </div>
+                  
                </div>
             </div>
          </div>
@@ -45,28 +46,28 @@
             <div class="row">
                <div class="col-md-6 text-center mb-5">
                   <div class="franchise_box">
-                  <i class="fas fa-star-of-life h2"></i>
-                  <h4>Affordable</h4>
+                  <img src="images/feature_1.png" alt="">
+                   <h4>Affordable</h4>
                   <p>At this price, we guarantee you a good ROI.</p>
                   </div>
                </div>
                <div class="col-md-6 text-center mb-5">
                <div class="franchise_box">
-                  <i class="fas fa-mug-hot h2"></i>
+                  <img src="images/feature_2.png" alt="">
                   <h4>100% hygienic </h4>
                   <p>Hygenic process, untouched by anyone.</p>
                   </div>
                </div>
                <div class="col-md-6 text-center mb-5">
                <div class="franchise_box">
-                  <i class="fas fa-users h2"></i>
+                 <img src="images/feature_5.png" alt="">
                   <h4>Experienced Team</h4>
                   <p>A dynamic team with knowledge to <span class="d-block">establish QSR (quick-service restaurant)</span></p>
                </div>
                </div>
                <div class="col-md-6 text-center mb-5">
                <div class="franchise_box">
-                  <i class="fas fa-hotel h2"></i>
+                   <img src="images/feature_4.png" alt="">
                   <h4>Good model setup</h4>
                   <p>The FOFO model has been designed with <span class="d-block"> an objective to generate high ROI.</span></p>
                </div>

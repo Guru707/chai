@@ -34,7 +34,7 @@
                         <a class="nav-link" href="index.php">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link " href="about_us.php" data-page="anchor2">Brand Story</a>
+                        <a class="nav-link " href="about_us.php" >Brand Story</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link " href="index.php#anchor3" data-page="anchor3">Stores </a>

@@ -3,7 +3,7 @@ include('header.php');
 ?>
 
    <section class="about-element equal-p" id="anchor2">
-      <div class="container">
+      <div class="container mt-4">
          <div class="row">
             <div class="col-lg-4 col-md-6">
                <div class="about-img">

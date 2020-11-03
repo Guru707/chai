@@ -138,12 +138,12 @@ textarea:focus {
         height:550px;   
         background-image: url(../images/map.jpg);    
     }
-.map_element h3{
+/*.map_element h3{
     position: absolute;
     left: 0;
     right: 0;
     top: 15px;
-}
+}*/
 }
 .map_block {
    display: none;
@@ -174,10 +174,10 @@ textarea:focus {
     height:300px;
 }
 
-.map_address li{
+/*.map_address li{
     position: absolute;
-}
-.map_address li:nth-child(1){
+}*/
+/*.map_address li:nth-child(1){
     left: -11%;
     top: 21%;
 }
@@ -192,7 +192,7 @@ textarea:focus {
 .map_address li:nth-child(4){
     left: 34%;
     top: 86%;
-}
+}*/
 .pop-box{
 
     background-color: #fff;
@@ -202,14 +202,10 @@ textarea:focus {
     z-index: 99;
     margin:0px auto;
     margin-bottom:15px;
+
     
 }
-@media(min-width:767px){
-    .pop-box{      
-        position: absolute; 
-        width: 300px;
-    }
-}
+
 .pop_content h4{
     color: rgb(196, 71, 38);
     font-size: 18px;
@@ -775,17 +771,11 @@ textarea:focus {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
-        max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
     
 }
 @media(min-width:767px){
     .product_box{
         height:400px;
-          max-width: 100%;
-            margin-left: 0;
-    margin-right: 0;
     }
 }
 .product_box > .chai_cup{
@@ -1039,13 +1029,23 @@ textarea.input-block {
 }
 
 .inner-main-title {
-    background-image: url(../images/cropped-frenchiese.jpg);
+    background-image: url(../images/banner_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     background-attachment: fixed;
     background-position: center;
     height: 300px;
+}
+.franchise-headng h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+@media(min-width:767px){
+    .franchise-headng h1{
+    font-weight: 400;
+    font-size: 62px;
+}
 }
 .inner-main-title {
     position: relative;
@@ -1069,6 +1069,11 @@ textarea.input-block {
 }
 .franchise_box i{
     color:#ec1f26;
+}
+.franchise_box img{
+       max-width: 100%;
+    width: 65px;
+    margin-bottom: 10px;
 }
 .hidden_content{
     display: none;

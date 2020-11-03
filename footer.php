@@ -22,9 +22,10 @@
                            Chaipatram.com</li>
                      </ul>
                      <div class="social-block">
-                     <a href="https://www.linkedin.com/company/70753219/admin/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                     <a href="https://www.facebook.com/Chaipatram" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                      <a href="https://www.instagram.com/chaipatram/" class="social-icon"><i class="fab fa-instagram"></i></a>
-                     <!-- <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a> -->
+                     <a href="https://www.linkedin.com/company/70753219/admin/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                     <a href="https://youtu.be/o9iTsmfor2Q" class="social-icon"><i class="fab fa-youtube"></i></a>
                      <a href="https://twitter.com/PatramChai" class="social-icon"><i class="fab fa-twitter"></i></a>
                   </div>
                   </div>

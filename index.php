@@ -53,7 +53,7 @@ include('header.php');
                      luck with getting only a few responses, and those who did revert were offering jobs that were not
                      good enough. After 3 months bored at home, I decided to change the scene and went to my nearest 
                      Chai Tapri because I got bored with my home Tea.</p>
-                     <a href="about_us.html" class="read_more text-white">Read More</a>
+                     <a href="about_us.php" class=" text-white">Read More</a>
                </div>
             </div>
          </div>
@@ -280,22 +280,22 @@ include('header.php');
       <div class="heading-element text-center">
          <h3 class="h1 mb-5 text-primary font-800">Our Stores </h3>
       </div>
-      <div class="map_block">
+      <!-- <div class="map_block">
          <img src="images/icon_map.png" alt="Workplace" usemap="#image-map" " hidefocus=" true">
          <map name="image-map">
-            <!-- <area target="" alt="" title="" href="#"
+            <area target="" alt="" title="" href="#"
                coords="196,194,208,217,221,225,252,238,258,210,245,191,232,166,204,169,192,177" shape="poly">
             <area target="" alt="" title="" href="#"
-               coords="153,405,164,424,185,436,196,432,200,416,189,387,164,373,139,383" shape="poly"> -->
+               coords="153,405,164,424,185,436,196,432,200,416,189,387,164,373,139,383" shape="poly">
             <area target="" alt="" title="" href="#"
                coords="646,349,657,379,675,389,684,384,692,364,683,345,666,340,643,332,639,348" shape="poly">
-            <!-- <area target="" alt="" title="" href="#" coords="799,388,809,404,817,428,829,438,853,429,841,405,817,383"
-               shape="poly"> -->
+           <area target="" alt="" title="" href="#" coords="799,388,809,404,817,428,829,438,853,429,841,405,817,383"
+               shape="poly"> 
          </map>
-      </div>
+      </div> -->
       <div id="pop-box" class="pop-box text-center" style="display:none;">
       </div>
-      <div class="mobile_device">
+      <div class="">
       <div  class="pop-box text-center" ><img src="images/chai_store.png" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div>
       <!-- <div  class="pop-box text-center" ><img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div>
       <div  class="pop-box text-center" ><img src="images/chai_store.jpg" class="img-responsive"><div class="pop_content"><h4>Chai Patram Tilak Nagar</h4><p class="mb-0">105,basement Level<span class="d-block">Behind Metro Station tilak nagar</span>Tilak Nagar, Delhi - 110018</p></div></div>

@@ -205,7 +205,9 @@ $(document).ready(function(){
     infinite: true,
     speed: 300,
     slidesToShow: 1,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    autoplay: true,
+    
   });
   $(".read_more").click(function(){
     $(".hidden_content").slideToggle();
