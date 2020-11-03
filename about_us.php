@@ -13,7 +13,7 @@ include('header.php');
             <div class="col-lg-8 col-md-6">
                <div class="about-content">
                   <h3 class="text-white font-500">The Journey of a Sales Person to a Chaiwala</h3>
-                  <p class="text-white">Wondering how a sales executive takes a u-turn and opens a Chai shop? </p>
+                  <p class="text-white">Get your cup of freshness and discover yourself. We serve Chai that is Hygenic. Chai humari favorite hai, aur aapki?</p>
                   <p class="text-white">The pandemic has been a life-changing experience for most of us. I lost my
                      comfortable, 9 to 5, 6 digit salary job in a matter of a day. Immediately I started looking for a
                      new job, hoping my degree and work experience would get me a job in no time. However, I ran out of
