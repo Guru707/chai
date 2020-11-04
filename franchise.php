@@ -21,7 +21,7 @@
                   <p class="">The food and beverage industry is highly competitive, customers are always looking for something new, and unique. This is why the best way to get into this business is through a food franchise.
                   </p>
                   <div >
-               <p class="">Mr. Kanhaiya Joshi has been in the food industry for 5 years has a good know-how of how the industry works, inside-out.
+               <p class="">Started by Young Entrepreneurs passionate about the food industry and have a good know-how of how the industry works, inside-out.
                </p>
                <p class="">At Chai Patram, we work with the best tea recipe and want to take India’s favorite drink - “Chai” reach every corner of India and be the “Chai point store near me”. We make our drink hygienic with the help of a process that allows us to create Chai from scratch untouched by anyone.
                </p>
